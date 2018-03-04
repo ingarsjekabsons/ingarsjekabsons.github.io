@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>nefiltrēts.lv Programmēšanas valodu dizains un Java</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Ubuntu+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="../css/default.css" />
+    </head>
+    <body>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+
+        <div id="header">
+            <div id="logo">
+                <a href="../">nefiltrēts.lv</a>
+            </div>
+            <div id="navigation">
+                <a href="../par.html">Par</a>
+                <a href="../archive.html">Arhīvs</a>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1>Programmēšanas valodu dizains un Java</h1>
+            <div class="info">
+    Publicēts March  2, 2018
+    
+</div>
+
+<p>Šodien noskatījos lielisku <strong><em>Guy Steele</em></strong> 1998. gada uzstāšanos. Šis video man jau labu laiku stāvēja <em>“skatīties vēlāk”</em> sarakstiņā, un ilgāku laiku nevarēju atrast motivāciju noskatīties tik smadzeņietilpīgu video. Šis video ir jau pieminētā džentelmeņa uzstāšanās ar nosaukumu <strong>“Growing a language”</strong>. Šajā runā Gaijs stāsta par programmēšanas valodu dizainu; kā to veidot, lai valoda izaugtu; veidus kā veicināt valodas izaugsmi un dažādi temati ap šo. Ir dažas lietas, kas man ļoti piesaistīja uzmanību tieši kontekstā ar <strong>Java</strong> valodas dizainu kā to aprakstīja Gaijs 1998. gadā, un kāds tas ir šodien. <!--more--> Šis video tiešām ir labs, es pat teikšu vēl vairāk - viens no labākajiem par valodu dizainu. Silti iesaku noskatīties - <a href="https://www.youtube.com/watch?v=_ahvzDzKdB0">video atrodas te</a>. Video ir gandrīz stundu garš un mentāli ļoti ietilpīgs, tāpēc, pirms skataties, sagatavojiet krūzi ar ko dzeramu.</p>
+<p>Principā, video jau tagad 20 gadus vēlāk joprojām ir aktuāls, un es domāju, ka vēl pēc 20 gadiem viņš savu aktualitāti nebūs zaudējis.</p>
+<p>Tie, kam video liekas garš un negrib to skatīties, es varu ieteikt tikai vienu - skatieties!</p>
+<p>Veids, kā Gaijs pasniedz savu sakāmo ir leģendārs, runas sākumā viņš nodefinē dažu vārdu nozīmi pakāpienveidā - t.i. - ar jau zināmu vārdu palīdzību nodefinē nākamos. Tālāk, runas gaitā viņš turpina nodefinēt jaunu vārdu nozīmi, tiklīdz tāds ir vajadzīgs, lai izteiktu savu nākamo domu. Nevarētu teikt, ka tiem definētajiem vārdiem ir ļoti kritiska loma viņa teiktajai domai, taču tas vienreizēji precīzi ilustrē programmēšanas valodas dizaina problēmas. Jeb kā latviski saka - <em>“proves the point”</em>.</p>
+<p>Viena no lietām, kas tiek uzsvērta, ir kļūda mēģināt uzdizainēt lielu valodu uzreiz (kādreiz tas nebija pašsaprotami), jo tam ir vajadzīgs daudz laika, to nevar izdarīt ātri. Ar “<em>lielu</em>” šeit kontekstā tiek saprasts ar “daudz <em>vārdiem</em>” un ar <em>vārdiem</em>, savukārt, šeit tiek saprastas valodā iebūvētās izteiksmes, metodes utt.</p>
+<p>Lielisks bija salīdzinājums valodu dizainā, kur “lietotāji” spēj bagātināt valodu ar savām definīcijām un tādām, kur to nevar izdarīt, ar katedrāles un tirgus būvēšanu. Vienā gadījumā ir “māsterplāns”, kur lielākā daļa svarīgie lēmumi jau ir pieņemti, pretstatā otram, kur tas notiek pakāpeniski, nepārtraukti.</p>
+<p>Christopher Alexander citāts, kas tiek piesaukts runā:</p>
+<blockquote>
+<p>Master plans have two additional unhealthy characteristics. To begin with, the existence of a master plan alienates the users . . . After all, the very exis- tence of a master plan means, by definition, that the members of the community can have little impact on the future shape of their community, because most of the important decisions have already been made. In a sense, under a master plan people are living with a frozen future, able to affect only relatively trivial details. When people lose the sense of responsibility for the environment they live in, and realize that they are merely cogs in someone else’s machine, how can they feel any sense of identification with the community, or any sense of purpose there?</p>
+</blockquote>
+<p>Tomēr šī ideja tiek attīstīta tālāk, ir nepieciešams plāns kā augt - nevis izstrādāt māsterplānu augšanai, bet plānu kā veicināt augšanu turpmāk.</p>
+<p>Un tam seko lieliska definīcija jēdzienam <strong>“meta”</strong>, es centīšos šo definīciju tagad uzrakstīt latviski:</p>
+<blockquote>
+<p>Meta nozīmē pakāpties soli augstāk no vietas, kur tu atrodies. <br /> Tas ko tu līdz šim darīji, tagad ir tas, ko tu redzi. <br /> Tas, kas tu biji, tagad ir tas, ar ko tu strādā. <br /> Darbības vārdi kļūst par lietvārdiem. <br /> Tas, kas bija paterns, tagad ir lieta, ko var ielikt kāda paterna vietā.</p>
+</blockquote>
+<p>Vai šis nav <strong>lie-li-ski</strong>?</p>
+<p>Un, ja tā padomā, šis ir lielisks veids kā pastāstīt kādam, kas ir higher-order funkcijas :) Manuprāt, šis skaidrojums arīdzan lieliski ilustrē robežu starp funkcijām un datiem izzušanu.</p>
+<p>Kad mēs esam meta, funkcijas ir dati.</p>
+<p>Šim seko doma, ka līdzšinējie valodu dizaini ir jālieto kā paterni programmām. Ka programmēšanas valodu dizainiem tagad ir jākļūst par patterniem programmēšanas valodu dizainiem. Ka programmēšanas valodas vairs nevar būt lieta, tām ir jābūt paterniem.</p>
+<blockquote>
+<p>We need now to go meta.</p>
+</blockquote>
+<p>Viscaur runai, tiek pieminēta Java. Un tas ir pašsaprotami, Gaijs tobrīd strādāja <strong><em>Sun Microsystems</em></strong> (tagad <strong><em>Oracle</em></strong>, kur starpcitu, strādā joprojām) un atradās diezgan tuvu Goslingam un pārjiem Java dizaineriem.</p>
+<p>Viena no vairāk izceltām īpašībām valodai ir tas, ka valodai ir jāsatur tikai ļoti vienkāršus “vārdus”. Tiek piesaukts salīdzinājums ar angļu valodu, kur <em>primitīvi</em> ir lietvārdi ar vienu patskani. Pārējie ir definēti ar šo primitīvu palīdzību.</p>
+<p>Man, personīgi, Java asociējas ir tādiem klašu nosaukumiem kā <strong>AbstractConnectorFactoryBaseObserver</strong> vai - <strong>SimpleBeanFactoryAwareAspectInstanceFactory</strong>. Un otro es neizdomāju, tāda klase tiešām eksistē.</p>
+<p>Toreiz Gaijs teica, ka viņaprāt Javai pietrūkst <em>Generic Types</em> un operatoru overloudošana (kas C++ jau toreiz bija), neko stipri vairāk nevajag. Gaijs Stīls pirms 20 gadiem lika likmi, ka Java būs izdevusies valoda, ja piedāvās “meta-programmēšanu”, un, man personīgi liekas, ka viņam būs bijusi taisnība. Tas viss, pluss “write once, run everywhere”.</p>
+<p>Tas, vai Java nav kļuvusi pārāk izdevusies, ka tā sāk lūst pati zem sava svara - tas ir cits jautājums :)</p>
+
+        </div>
+
+        <div id="footer">
+            © nefiltrēts.lv™
+        </div>
+    </body>
+</html>
