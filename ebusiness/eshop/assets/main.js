@@ -6541,7 +6541,7 @@ var $author$project$Main$update = F2(
 							r: $elm$http$Http$expectWhatever($author$project$Main$ProductDeleted),
 							ac: _List_Nil,
 							ag: 'DELETE',
-							ay: $elm$core$Maybe$Just(60),
+							ay: $elm$core$Maybe$Just(999),
 							az: $elm$core$Maybe$Nothing,
 							v: model.n + ('/esprods/' + $elm$core$String$fromInt(i))
 						}));
